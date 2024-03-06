@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background: #2B2C2C;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+
+.maxw {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    gap: 30px;
+}
+
+.container {
+    padding-left: 135px;
+    padding-right: 135px;
+}
+
+/*Podjela CSS-a*/
+
+/*General CSS*/
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*Header*/
+
+/*Section 1 Intro*/
+.intro {
+    padding-top: 100px;
+}
+
+.left {
+    grid-column: span 5;
+    padding-top: 60px;
+}
+
+.right {
+    grid-column: span 7;
+}
+
+h5 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    /* 214.286% */
+    letter-spacing: 1.05px;
+}
+
+h1 {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 90px;
+    /* 150% */
+    letter-spacing: 0.72px;
+}
+
+span {
+    color: #FEB633;
+}
+.intro-p{
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    margin-top: 10px;
+    margin-bottom: 45px;
+}
+.btn{
+    border-radius: 4px;
+    border: 2px solid #FEB633;
+    width: 260px;
+    height: 64px;
+    padding: 15px 70px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    color: #FEB633;;
+    /*Odnosi se samo na button element*/
+    background: transparent;
+}
+
+/*Section 2 About me*/
+.about {
+    padding-top: 120px;
+    padding-bottom: 240px;
+}
+
+.am-left {
+    grid-column: span 5;
+}
+
+.am-right {
+    grid-column: span 7;
+}
+
+/*Section 3 Services*/
+.services {
+    padding-top: 120px;
+    padding-bottom: 130px;
+}
+
+.title {
+    grid-column: span 12;
+}
+
+.title>h2 {
+    text-align: center;
+}
+
+.title>p {
+    max-width: 770px;
+    /*Na koji način ga sve centrirati*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rectangle {
+    grid-column: span 6;
+}
